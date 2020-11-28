@@ -1,0 +1,47 @@
+.main {
+  --leftPad: calc(197px - 120px);
+
+  width: 480px;
+  height: 480px;
+  left: 6.25%;
+  right: 68.75%;
+  top: 14.97%;
+  bottom: 62.98%;
+}
+
+.name {
+  position: absolute;
+  height: 36px;
+  width: 172px;
+  left: var(--leftPad);
+  top: calc(405px - 326px);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  color: #14142b;
+}
+
+.email {
+  width: 325px;
+  left: var(--leftPad);
+  top: calc(474px - 326px);
+  border-radius: 16px;
+}
+
+.password {
+  width: 325px;
+  left: var(--leftPad);
+  top: calc(566px - 326px);
+  border-radius: 16px;
+}
+
+/*login button style */
+.submit {
+  width: 319px;
+  left: var(--leftPad);
+  top: calc(662px - 326px);
+  border-radius: 16px;
+}

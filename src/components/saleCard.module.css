@@ -1,0 +1,59 @@
+.main {
+  --topPad: calc(395px - 326px);
+  --leftPad: calc(735px - 671px);
+
+  height: 480px;
+  width: 840px;
+  left: 671px;
+  top: 326px;
+}
+
+.title {
+  position: absolute;
+  height: 36px;
+  width: 269px;
+  top: var(--topPad);
+  left: var(--leftPad);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #14142b;
+}
+.desc {
+  position: absolute;
+  height: 36px;
+  width: 284px;
+  left: var(--leftPad);
+  top: calc(521px - 326px);
+  height: 36px;
+  width: 284px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: #14142b;
+}
+
+.photo {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  top: var(--topPad);
+  right: var(--leftPad);
+  background: url("../assests/leaves.png");
+}
+
+.button {
+  position: absolute;
+  height: 64px;
+  width: 160px;
+  left: var(--leftPad);
+  top: calc(681px - 326px);
+  border: 2px solid #d6d8e7;
+  border-radius: 40px;
+}

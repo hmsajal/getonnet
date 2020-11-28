@@ -1,0 +1,22 @@
+.main {
+  height: 130px;
+  width: 445px;
+  left: 515px;
+  top: 1690px;
+}
+
+.button {
+  width: 181.63265991210938px;
+  top: calc(1723px - 1690px);
+  border-radius: 16px;
+}
+
+.leftBtn {
+  composes: button;
+  left: calc(548.29931640625px - 515px);
+}
+
+.rightBtn {
+  composes: button;
+  left: calc(746.08px - 515px);
+}

@@ -1,0 +1,18 @@
+.main {
+  position: relative;
+  background: #dedede;
+  width: 1920px;
+  height: 2177px;
+}
+.title {
+  position: absolute;
+  left: 120px;
+  top: 100px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #14142b;
+}

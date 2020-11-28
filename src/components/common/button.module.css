@@ -1,0 +1,18 @@
+.btn {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.75px;
+  height: 64px;
+  border: 2px solid #5f2eea;
+}
+
+.btn:focus {
+  outline: none;
+}
