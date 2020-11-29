@@ -1,0 +1,8 @@
+.mask {
+  position: absolute;
+  left: 7.14%;
+  right: 7.14%;
+  top: 7.14%;
+  bottom: 7.14%;
+  border-radius: 16px;
+}

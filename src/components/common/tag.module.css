@@ -1,0 +1,42 @@
+.tagWrapper {
+  position: absolute;
+  height: 37.84221649169922px;
+  width: 145.5657958984375px;
+  right: 0;
+  top: calc(1951px - 1504px);
+}
+
+.tag {
+  position: absolute;
+  height: 34px;
+  width: 114px;
+  left: 0.577392578125px;
+  top: 0px;
+  border-radius: 39px;
+  padding: 7px, 16px, 7px, 16px;
+  background: #ded3ff;
+}
+
+.tagIcon {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 16px;
+  top: 7px;
+}
+
+.tagText {
+  position: absolute;
+  height: 18px;
+  width: 54px;
+  left: 44px;
+  top: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #2a00a2;
+}

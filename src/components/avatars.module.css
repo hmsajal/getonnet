@@ -4,3 +4,31 @@
   left: 515px;
   top: 1890px;
 }
+.avatar1 {
+  position: absolute;
+  height: 40px;
+  width: 40.27210998535156px;
+  left: calc(548.2244873046875px - 515px);
+  top: calc(1935px - 1890px);
+}
+.avatar2 {
+  position: absolute;
+  height: 56px;
+  width: 56.380950927734375px;
+  left: calc(628.7687072753906px - 515px);
+  top: calc(1927px - 1890px);
+}
+.avatar3 {
+  position: absolute;
+  height: 72px;
+  width: 72.48979949951172px;
+  left: calc(725.4217681884766px - 515px);
+  top: calc(1919px - 1890px);
+}
+.avatar4 {
+  position: absolute;
+  height: 88px;
+  width: 88.59864044189453px;
+  left: calc(838.1836853027344px - 515px);
+  top: calc(1911px - 1890px);
+}

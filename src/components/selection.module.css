@@ -1,6 +1,102 @@
 .main {
+  --leftPad: calc(167px - 120px);
   height: 714px;
   width: 325px;
   left: 120px;
   top: 1306px;
+}
+
+.select {
+  position: absolute;
+  width: 96px;
+  height: 32px;
+  top: calc(1338px - 1306px + 10px);
+  padding: 10;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected {
+  composes: select;
+  left: calc(149px - 120px + 10px);
+  color: #14142b;
+}
+.unselected {
+  composes: select;
+  left: calc(269px - 120px + 10px);
+  color: #999;
+}
+
+.selectIcon {
+  position: absolute;
+  font-size: 30px;
+  top: 36px;
+  left: calc(149px - 120px + 50px);
+  top: calc(1338px - 1306px + 40px);
+}
+
+.text {
+  position: absolute;
+  width: 225px;
+  height: 128px;
+  left: var(--leftPad);
+  top: calc(1435px - 1306px);
+  background: #eff0f7;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+}
+.label {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #a0a3bd;
+  top: calc(1435px - 1306px + 30px);
+  left: calc(var(--leftPad) + 20px);
+  z-index: 10;
+}
+.textboxicon {
+  position: absolute;
+  top: calc(1435px - 1306px + 110px);
+  left: calc(var(--leftPad) + 20px + 185px);
+}
+
+.vegSelect {
+  position: absolute;
+  background: #eff0f7;
+  height: 56px;
+  width: 225px;
+  border-radius: 15px;
+  border: none;
+  left: var(--leftPad);
+  top: calc(1596px - 1306px);
+  box-sizing: border-box;
+  outline: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  padding-left: 30px;
+}
+
+.option {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
 }

@@ -1,6 +1,190 @@
 .main {
+  position: absolute;
   height: 360px;
   width: 481px;
   left: 1030px;
   top: 876px;
+  --leftPad: calc(1078px - 1030px);
+  --topPad: calc(932px - 876px);
+  --top2: calc(1022px - 876px);
+}
+.roundBtn {
+  position: absolute;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+}
+.grayBtn {
+  composes: roundBtn;
+  background: #d6d8e7;
+  left: var(--leftPad);
+  top: var(--topPad);
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueBtn {
+  composes: roundBtn;
+  background: #5f2eea;
+  height: 48px;
+  width: 48px;
+  left: calc(1176px - 1030px);
+  top: calc(924px - 876px);
+  border: 8px solid #ded3ff;
+  outline: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grayBtn2 {
+  composes: roundBtn;
+  background: #d6d8e7;
+  left: calc(1328px - 1030px);
+  top: var(--topPad);
+  border: none;
+  outline: none;
+}
+.blueBorderBtn {
+  composes: roundBtn;
+  background: #d6d8e7;
+  left: calc(1419px - 1030px);
+  top: var(--topPad);
+  border: 8px solid #5f2eea;
+  outline: none;
+}
+
+/* toggle item */
+.toggle {
+  position: absolute;
+  top: var(--top2);
+  width: 64px;
+  height: 36px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+.toggleBtn {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  top: 0px;
+  border-radius: 40px;
+  outline: none;
+}
+.toggleOff {
+  composes: toggle;
+  background: #d6d8e7;
+  left: var(--leftPad);
+}
+.toggleBtnOff {
+  composes: toggleBtn;
+  left: 0;
+  border: 2px solid #d6d8e7;
+}
+
+.toggleOn {
+  composes: toggle;
+  background: #5f2eea;
+  left: calc(1176px - 1030px);
+}
+.toggleBtnOn {
+  composes: toggleBtn;
+  left: 28px;
+  border: 2px solid #5f2eea;
+}
+
+/* addition and subtraction button*/
+.plusMinus {
+  position: absolute;
+  height: 29px;
+  width: 121px;
+  left: calc(1328px - 1030px);
+  top: var(--top2);
+}
+
+.minusBtn {
+  composes: roundBtn;
+  top: 0;
+  left: 0;
+  outline: none;
+  border: 2px solid #5f2eea;
+  background: #fff;
+  font-size: 20px;
+}
+.plusBtn {
+  composes: roundBtn;
+  top: 0;
+  right: 0;
+  outline: none;
+  border: 2px solid #5f2eea;
+  background: #fff;
+  font-size: 20px;
+}
+.count {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: calc(50% - 23px / 2 - 0.61px);
+  top: calc(50% - 23px / 2 - 4.5px);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #14142b;
+}
+
+/*slider styles*/
+.slider {
+  position: absolute;
+  height: 94px;
+  width: 387px;
+  left: var(--leftPad);
+  bottom: var(--topPad);
+}
+
+.sliderRect {
+  position: absolute;
+  background: #d6d8e7;
+  height: 23.5px;
+  width: 387px;
+  left: 0px;
+  top: 35.25px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorRect {
+  position: absolute;
+  background: #5f2eea;
+  height: 23.5px;
+  width: 201.85250854492188px;
+  left: 0px;
+  top: 0;
+  border-radius: 40px;
+}
+.sliderBtnOuter {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  border-radius: 40px;
+  background: #d6d8e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderBtn {
+  position: absolute;
+  background: #fff;
+  height: 32px;
+  width: 32px;
+  border-radius: 40px;
+  border: 2px solid #5f2eea;
 }
